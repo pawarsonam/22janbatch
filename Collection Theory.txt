@@ -1,0 +1,39 @@
+
+
+
+                                          Colloection(Supermost interface)
+
+
+  List                                                    Set                          Queue                    Map
+
+1.it is subinterface class                  1.it is subinterface                   Implementations classes   Implementations classes 
+2.store duplicate value.                    2.store only one Null value.           - Priority Class           1.Hashmap
+3.store null values                         3.can't store duplicate value.                                     -elements are sorted in key and
+                                                                                                                 values pair.
+Implementations classes                    Implementations classes                                             -keys are always unique and values can be                                                                           
+1.arraylist                                1.hashset                                                            duplicate.
+-default capacity 10.                     -does not allow duplicate value                                      -hashmap have one null key and multiple null 
+-incremental capacity=c.c*3/2+1.           -store only one Null value.                                          values.
+-resizable data structure                  -random order of insertion                                           
+-best choice for data retrival(.get)         
+-worst choice for manipulation             2.linked hashset
+(add or remove)                          - does not allow duplicate value
+                                          - store only one Null value.
+2.vector                                  -order of insertion is maintained.
+-It is legacy class.                      
+-default capacity =10.                     3.Treeset
+-incremental capacity=c.c*2.               - does not allow duplicate value
+-doubly data structure.                    - does not allow Null value
+-best choice for data retrival.            -order of insertion in asending order.
+-worst choice for manipulation
+-ext. method (.capacity)
+
+3.Linked list
+-no default capacity.
+-linear data structure.
+-best choice for data manipulation.
+-best choice for data retrival.
+-extra method (.addfirst ,.addlast,
+.removefirst ,.removelast,
+.getfirst ,.getlast)
+-

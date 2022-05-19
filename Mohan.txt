@@ -1,0 +1,18 @@
+
+                                                          Selenium Locators
+  
+Locators - id ,Name,class Name,Tag Name,linktext,partiallink text .
+Customize locators -
+1.Xpath - 1.absolute= /html/body/tagname/attribute name/attribute value  
+          2.relative =//attribute name//attribute value.
+2.customize x path -1. basic Xpath = tag name[@atrribute name='attribute value']
+                    2 .text() = //tagname[text()='value']
+                    3.contains= //tagname[contains(@attribute,'value')]
+                    4 .starts-with= //tagname[starts-with(@attribute,'value')]
+                    5.logical oprators =i) And  = //tagname[@attribute1='value1' and @attribute2='value2']
+                                        ii) OR.=//tagname[@attribute1='value1' or @attribute2='value2']
+
+CSS Selectors - 1.tag &id = tagname#id
+                2.tag&class= tagname.class
+                3.tag&attribute = tagname[attribute='value'] 
+                 4.tag & class & attribute = tagname.class[attribute='value']

@@ -1,0 +1,76 @@
+package Collection;
+
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class VectorListpr {
+	public static void main(String[] args) {
+		
+		Vector<Integer> vec = new Vector<Integer>();
+		vec.add(123);
+		vec.add(234);
+		vec.add(345);
+		vec.add(678);
+		vec.add(234);
+		
+		//printing the vector list
+		System.out.println(vec); //[123, 234, 345, 678]
+		//check the default capacity
+		System.out.println(vec.capacity());//10
+		//check the size
+		System.out.println(vec.size()); //4
+		
+		//replace the element
+		vec.set(2, 10);
+		System.out.println(vec); //[123, 234, 10, 678]
+		
+	    //shift the element using add method based on index number
+		vec.add(3,222 );
+	System.out.println(vec); //[123, 234, 10, 222, 678]
+//		//remove the element
+    vec.remove(3);
+   System.out.println(vec); //[123, 234, 10, 678]
+	    //to check size of arraylist
+	     System.out.println(vec.size());// 4
+	     //check the arraylist is empty or not .
+	     
+	    System.out.println(vec.isEmpty()); //false
+//	    //finding the index of mentioned character/string 
+   System.out.println(vec.indexOf(10)); //2
+
+		//checking the part of the given list or not
+	    System.out.println(vec.contains(10));  //true
+//	    // printing last value as a result if same value occures multiple time
+   System.out.println(vec.lastIndexOf(234)); //4
+
+   //convert in asending order
+   Collections.sort(vec);
+   System.out.println(vec);//[10, 123, 234, 234, 678]
+   
+   //convert in desending order
+   Collections.sort(vec,Collections.reverseOrder());
+   System.out.println(vec);//[678, 234, 234, 123, 10]
+   
+   //reading the vector list
+   Enumeration em = vec.elements();
+   while(em.hasMoreElements()) {
+	   System.out.println(em.nextElement());
+	   //678
+	 //  234
+	   // 234
+	   //123
+	  // 10
+
+   }
+   
+	    
+		
+		
+		
+		
+		
+		
+	}
+
+}

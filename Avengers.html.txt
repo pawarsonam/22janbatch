@@ -1,0 +1,67 @@
+
+
+<h1>Avengers World</h1>
+<h2>SIGN UP PAGE</h2>
+<label>First Name</label>
+<input type ="text"  id="First Name" name="First Name">
+<label>Last Name</label>
+<input type ="text" id="Last Name" name="Last Name"><br>
+<br>
+<label>Email </label>
+<input type ="text" id="E-mail" name="E-mail"><br>
+<br>
+<label>Create Password</label>
+<input type="password" ><br>
+<br>
+<label>Date of Birth</label>
+<input type = "date" id="datemin" name="datemin" min="1980-02-02" > <br>
+<br>
+<label>Gender</label>
+<input type ="radio" id="male" name="male">
+<label>Male</label>
+<input type = "radio" id="Female" name="Female">
+<label>Female</label><br>
+<br>
+<label>Country</label>
+<select name ="country" id="country">
+<option value="india">India</option>
+<option value="America">America</option>
+<option value = "Japan">Japan</option>
+</select><br>
+<input type="checkbox" >
+<label>I accept all terms and conditions</label><br>
+<br>
+<input type ="submit" value="Submit"><br>
+<br>
+<a href ="https://www.google.com">Forget Password</a><br>
+<br>
+<a href ="https://www.facebook.com">Avengers Log In</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

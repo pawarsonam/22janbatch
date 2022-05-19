@@ -1,0 +1,44 @@
+package Collection;
+
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+
+public class LinkedListprog {
+	public static void main(String[] args) {
+		
+	
+
+	LinkedList lk = new LinkedList();
+	
+	lk.add("ahsg");
+	lk.add(12);
+	lk.add('t');
+	lk.add(23);
+	
+	
+	//finding the first element
+	System.out.println(lk.getFirst()); //ahsg
+	//finding the last element
+	System.out.println(lk.getLast()); //23
+	
+	//adding the first element
+	lk.addFirst("java");
+	//adding the last element
+	lk.addLast("Paython");
+	System.out.println(lk);//[java, ahsg, 12, t, 23, Paython]
+	
+	//remove first
+	lk.removeFirst();
+	//remove last
+	lk.removeLast();
+	System.out.println(lk);//[ahsg, 12, t, 23]
+	//replace the elements
+	lk.set(2, 'M');
+	System.out.println(lk);//[ahsg, 12, M, 23]
+   
+	
+	
+	
+	
+}
+}
